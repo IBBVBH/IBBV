@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="imagex/png" href="./src/images/icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <title>Igreja Batista Bela Vista</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-church" id="nav_logo"> IBBV</i>
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">Agenda da Igreja</a>
+          </li>
+          <li class="nav-item">
+            <a href="#location">Onde Estamos</a>
+          </li>
+        </ul>
+        <button class="btn-default">
+          <a href="src/pages/formulario.html">Entre em contato</a>
+        </button>
+        <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">Agenda da Igreja</a>
+          </li>
+          <li class="nav-item">
+            <a href="#location">Onde Estamos</a>
+          </li>
+        </ul>
+        <button class="btn-default">
+          <a href="src/pages/formulario.html">Entre em contato</a>
+        </button>
+      </div>
+    </header>
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">Igreja Batista <span>Bela Vista</span></h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+            consequatur! Nobis, reprehenderit unde!
+          </p>
+          <div id="cta_buttons">
+            <a href="#" class="btn-default" id="tel">Telefone</a>
+            <a href="tel:+3134642545" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (031) 3464-2545
+            </a>
+          </div>
+          <div class="social-media-buttons">
+            <a
+              href="https://wa.me//5531983540264?text=Olá, tudo bem? Vim pelo site da igreja!"
+              target="_blank"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/ibbvbh?igsh=c2k1Z2htajRhdTZs"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/share/1APLm3rBDS/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <div id="banner">
+          <img src="./src/images/ibbv.webp" alt="banner" />
+        </div>
+      </section>
+      <section id="about">
+        <h2 class="section-title">Agenda</h2>
+        <h3 class="section-subtitle">Por dentro da IBBV</h3>
+        <div id="events">
+          <div class="event">
+            <div class="event-bible">
+              <i class="fa-solid fa-book-bible"></i>
+            </div>
+            <img src="src/images/event.jpg" class="event-image" alt="" />
+            <h3 class="event-title">Culto Dominical</h3>
+            <span class="event-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <div class="event-rate">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-bible">
+              <i class="fa-solid fa-book-bible"></i>
+            </div>
+            <img src="src/images/event2.jpg" class="event-image" alt="" />
+            <h3 class="event-title">Quarta-feira Culto de Oração</h3>
+            <span class="event-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <div class="event-rate">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-bible">
+              <i class="fa-solid fa-book-bible"></i>
+            </div>
+            <img src="src/images/event3.jpg" class="event-image" alt="" />
+            <h3 class="event-title">Evento IBBV</h3>
+            <span class="event-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <div class="event-rate">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-bible">
+              <i class="fa-solid fa-book-bible"></i>
+            </div>
+            <img src="src/images/event4.jpg" class="event-image" alt="" />
+            <h3 class="event-title">Evento IBBV</h3>
+            <span class="event-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <div class="event-rate">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="location">
+        <!-- <img src="/src/images/testemunho.jpg" id="testimonials_image" alt="" /> -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.4813582949!2d-43.96956492586096!3d-19.90411043750069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697183cdac811%3A0x4c84a6f70877396a!2sIgreja%20Batista%20Bela%20Vista%20-%20Belo%20Horizonte!5e0!3m2!1spt-BR!2sbr!4v1732124004768!5m2!1spt-BR!2sbr"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div id="testimonials_content">
+          <h2 class="section-title">Onde Estamos</h2>
+          <h3 class="section-subtitle">Venha nos fazer uma visita!!</h3>
+          <div id="feedbacks">
+            <div class="feedback">
+              <img
+                src="/src/images/avatar.png"
+                class="feedback-avatar"
+                alt=""
+              />
+              <div class="feedback-content">
+                <p>
+                  Gertrudes
+                  <span>
+                    <i class="fa solid fa-comment"></i>
+                  </span>
+                </p>
+                <p>
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Blanditiis optio assumenda doloribus.
+                </p>
+              </div>
+            </div>
+            <div class="feedback">
+              <img
+                src="/src/images/avatar.png"
+                class="feedback-avatar"
+                alt=""
+              />
+              <div class="feedback-content">
+                <p>
+                  Gertrudes
+                  <span>
+                    <i class="fa solid fa-comment"></i>
+                  </span>
+                </p>
+                <p>
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Blanditiis optio assumenda doloribus."
+                </p>
+              </div>
+            </div>
+          <!-- </div>
+          <button class="btn-default">Ver mais testemunhos</button>
+        </div> -->
+      </section>
+    </main>
+    <footer>
+      <img src="./src/images/wave.svg" alt="Imagem de fundo de uma onda" />
+      <div id="footer_items">
+        <span id="copyright"> &copy 2024 Igreja Batista Bela Vista </span>
+        <div class="social-media-buttons">
+          <a href="https://wa.me//5531983540264?text=Olá, tudo bem? Vim pelo site da igreja!"
+          target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/ibbvbh?igsh=c2k1Z2htajRhdTZs"
+          target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/share/1APLm3rBDS/"
+          target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/javascript/script.js"></script>
+  </body>
+</html>
