@@ -1,9 +1,11 @@
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
       <img src="images/wave.svg" alt="Imagem de fundo de uma onda" />
       <div id="footer_items">
-        <span id="copyright"> &copy 2024 Igreja Batista Bela Vista </span>
+        <span id="copyright"> © {currentYear} Igreja Batista Bela Vista </span>
         <div className="social-media-buttons">
           <a
             href="https://wa.me//5531983540264?text=Olá, tudo bem? Vim pelo site da igreja!"
