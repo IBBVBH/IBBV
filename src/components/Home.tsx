@@ -40,7 +40,7 @@ export const Home = () => {
         </div>
       </div>
       <div id="banner">
-        <img src="src/images/ibbv.webp" alt="banner" />
+        <img src="images/ibbv.webp" alt="banner" />
       </div>
     </section>
   );

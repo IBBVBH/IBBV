@@ -43,7 +43,7 @@ export const Header = () => {
           </li>
         </ul>
         <button className="btn-default">
-          <a href="src/pages/formulario.html">Entre em contato</a>
+          <a href="#">Entre em contato</a>
         </button>
         <button id="mobile_btn">
           <i className="fa-solid fa-bars"></i>
