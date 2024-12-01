@@ -8,7 +8,7 @@ export const About = () => {
           <div className="event-bible">
             <i className="fa-solid fa-book-bible"></i>
           </div>
-          <img src="src/images/event.jpg" className="event-image" alt="" />
+          <img src="images/event.jpg" className="event-image" alt="" />
           <h3 className="event-title">Culto Dominical</h3>
           <span className="event-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -21,7 +21,7 @@ export const About = () => {
           <div className="event-bible">
             <i className="fa-solid fa-book-bible"></i>
           </div>
-          <img src="src/images/event2.jpg" className="event-image" alt="" />
+          <img src="images/event2.jpg" className="event-image" alt="" />
           <h3 className="event-title">Quarta-feira Culto de Oração</h3>
           <span className="event-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,7 +34,7 @@ export const About = () => {
           <div className="event-bible">
             <i className="fa-solid fa-book-bible"></i>
           </div>
-          <img src="src/images/event3.jpg" className="event-image" alt="" />
+          <img src="images/event3.jpg" className="event-image" alt="" />
           <h3 className="event-title">Evento IBBV</h3>
           <span className="event-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -47,7 +47,7 @@ export const About = () => {
           <div className="event-bible">
             <i className="fa-solid fa-book-bible"></i>
           </div>
-          <img src="src/images/event4.jpg" className="event-image" alt="" />
+          <img src="images/event4.jpg" className="event-image" alt="" />
           <h3 className="event-title">Evento IBBV</h3>
           <span className="event-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -12,11 +12,7 @@ export const Location = () => {
         <h3 className="section-subtitle">Venha nos fazer uma visita!!</h3>
         <div id="feedbacks">
           <div className="feedback">
-            <img
-              src="/src/images/avatar.png"
-              className="feedback-avatar"
-              alt=""
-            />
+            <img src="images/avatar.png" className="feedback-avatar" alt="" />
             <div className="feedback-content">
               <p>
                 Gertrudes
@@ -31,11 +27,7 @@ export const Location = () => {
             </div>
           </div>
           <div className="feedback">
-            <img
-              src="/src/images/avatar.png"
-              className="feedback-avatar"
-              alt=""
-            />
+            <img src="images/avatar.png" className="feedback-avatar" alt="" />
             <div className="feedback-content">
               <p>
                 Gertrudes
