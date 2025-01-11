@@ -12,32 +12,17 @@ export const Location = () => {
         <h3 className="section-subtitle">Venha nos fazer uma visita!!</h3>
         <div id="feedbacks">
           <div className="feedback">
-            <img src="images/avatar.png" className="feedback-avatar" alt="" />
+            <img src="images/pastor.png" className="feedback-avatar" alt="" />
             <div className="feedback-content">
-              <p>
-                Gertrudes
+              <p className="title-pastor">
+                Pr.Wallace Monteiro
                 <span>
                   <i className="fa solid fa-comment"></i>
                 </span>
               </p>
               <p>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis optio assumenda doloribus.
-              </p>
-            </div>
-          </div>
-          <div className="feedback">
-            <img src="images/avatar.png" className="feedback-avatar" alt="" />
-            <div className="feedback-content">
-              <p>
-                Gertrudes
-                <span>
-                  <i className="fa solid fa-comment"></i>
-                </span>
-              </p>
-              <p>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis optio assumenda doloribus."
+                "Aqui você encontra uma igreja acolhedora, com uma mensagem
+                transformadora e uma comunidade que ama a Deus e ao próximo."
               </p>
             </div>
           </div>

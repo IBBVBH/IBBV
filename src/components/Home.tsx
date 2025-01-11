@@ -7,13 +7,10 @@ export const Home = () => {
           Igreja Batista <span>Bela Vista</span>
         </h1>
         <p className="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-          consequatur! Nobis, reprehenderit unde!
+          "Crê no Senhor Jesus Cristo e serás salvo, tu e a tua casa." <br />-
+          Atos 16:31
         </p>
         <div id="cta_buttons">
-          <a href="#" className="btn-default" id="tel">
-            Telefone
-          </a>
           <a href="tel:+3134642545" id="phone_button">
             <button className="btn-default">
               <i className="fa-solid fa-phone"></i>
