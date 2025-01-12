@@ -37,7 +37,7 @@ iframe {
   align-items: center;
   gap: 20px;
   background-color: var(--color-neutral-0);
-  padding: 12px;
+  padding: 24px;
   border-radius: 12px;
   box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
@@ -96,4 +96,10 @@ iframe {
   .feedback {
     flex-direction: column;
   }
+}
+
+.title-pastor {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
