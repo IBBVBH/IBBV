@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const Header = () => {
   const [activeSection, setActiveSection] = useState<string>(
-    window.location.hash || "#home"
+    window.location.hash || "#home",
   );
 
   useEffect(() => {
@@ -44,9 +44,6 @@ export const Header = () => {
         </ul>
         <button className="btn-default">
           <a href="#">Entre em contato</a>
-        </button>
-        <button id="mobile_btn">
-          <i className="fa-solid fa-bars"></i>
         </button>
       </nav>
       <div id="mobile_menu">
